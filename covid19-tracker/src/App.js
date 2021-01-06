@@ -54,9 +54,9 @@ function App() {
       </div>
 
       <div className="app_stats">
-        <InfoBox/>
-        {/* InfoBox */}
-        {/* InfoBox */}
+        <InfoBox title="Corona Virus Cases" cases={123} total={2000}/>
+        <InfoBox title="Recovered" cases={12312} total={2000}/>
+        <InfoBox title="Deaths" cases={1234} total={2000} />
       </div>
 
       
@@ -65,6 +65,7 @@ function App() {
       {/* Graph */}
 
       {/* Map */}
+      <Map />
     </div>
   );
 }
